@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    color: white;
+    background-image: url(Robot-AI-image-Getty-Images.original.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    padding: 5px 10%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a ::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom: -6px;
+    transition:0.5s;
+
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+img{
+    width: 200px;
+    height: 100px;
+}
+nav ul li a:hover::after{
+    width: 100%;
+    color: red;
+}
+h2,h3,h4 {
+    color:aqua;
+
+}
+nav ul li{
+    color: red;
+}
+ footer div a href{
+    font-size: larger;
+}
+
+
+
+
